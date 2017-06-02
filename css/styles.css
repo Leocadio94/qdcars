@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+@font-face {
+    font-family: "EA Sports Covers SC";
+    src: url(../fonts/EASportsCoversSC.ttf) format("truetype");
+}
+
+.navbar {
+    background-color: #323232;
+}
+.top-bar, .down-bar {
+    padding-top: 10px;
+}
+
+.top-bar > div {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    color: #B6B6B6;
+}
+
+.down-bar > div {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: "EA Sports Covers SC", sans-serif;
+    font-size: 68px;
+    color: #F7595E;
+}
+
+.logo span {
+    color: #FFFFFF;
+}
+
+.search {
+    color: #B6B6B6;
+    font-size: 20px;
+}
+.search span {
+    font-size: 12px;
+    font-weight: normal;
+    border-bottom: 2px solid #B6B6B6;
+}
+
+.cart {
+
+}
+
+.cart-icon {
+    font-size: 30px;
+    color: #F7595E;
+    float:left;
+    padding-right: 10px;
+}

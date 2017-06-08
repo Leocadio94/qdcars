@@ -14,32 +14,33 @@
     <nav class="navbar">
         <div class="container top-bar">
             <div class="row">
-                <div class="col-md-8">Olá, bem-vindo!</div>
-                <div class="col-md-2 text-right">Meus pedidos</div>
-                <div class="col-md-2">Atendimento</div>
+                <div class="col-md-10">Olá, bem-vindo!</div>
+                <div class="col-md-2"><a href="#">Meus pedidos</a> <a href="#">Atendimento</a></div>
             </div>
         </div>
         <div class="container down-bar">
-            <div class="row text-center">
-                <div class="col-md-1">LOREM<i class="fa fa-angle-down down-icon"></i></div>
-                <div class="col-md-1">IPSUM<i class="fa fa-angle-down down-icon"></i></div>
-                <div class="col-md-1">DOLLOR<i class="fa fa-angle-down down-icon"></i></div>
-                <div class="col-md-1">AMET<i class="fa fa-angle-down down-icon"></i></div>
+            <div class="row">
+                <div class="col-md-1"><a href="#">LOREM<i class="fa fa-angle-down down-icon"></i></a></div>
+                <div class="col-md-1"><a href="#">IPSUM<i class="fa fa-angle-down down-icon"></i></a></div>
+                <div class="col-md-1"><a href="#">DOLLOR<i class="fa fa-angle-down down-icon"></i></a></div>
+                <div class="col-md-1"><a href="#">AMET<i class="fa fa-angle-down down-icon"></i></a></div>
                 <div class="col-md-3">
-                    <div class="logo text-center">
-                        QD<span>Car</span>s
-                    </div>
+                    <a href="#">
+                        <div class="logo text-center">
+                            QD<span>Car</span>s
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-3">
                     <div class="search">
                         <span>Estou procurando por...</span>
-                        <i class="fa fa-search"></i>
+                        <a href="#"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="row">
                         <div class="col-md-2 cart-icon"><i class="fa fa-shopping-cart"></i> </div>
-                        <div class="col-md-10 cart-desc text-justify">(99)<br>R$ 9.999,00</div>
+                        <div class="col-md-10 cart-desc">(99)<br>R$ 9.999,00</div>
                     </div>
                 </div>
             </div>
@@ -48,14 +49,32 @@
 
     <div class="container">
         <div class="vitrine">
-            <div class="car row">
-                <img class="img-responsive" src="img/car_banner.png" alt="Car 1">
+            <div class="car row center-block">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="img/car_banner.png" alt="Car 1">
+                </div>
             </div>
-            <div class="cars row">
-                <img class="img-responsive" src="img/cars_banner.png" alt="Cars 1">
+            <div class="cars row center-block">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="img/car_banner2.png" alt="Car 2">
+                </div>
+                
+                <div class="col-md-6">
+                    <img class="img-responsive" src="img/car_banner3.png" alt="Car 3">
+                </div>
             </div>
-            <div class="cars row">
-                <img class="img-responsive" src="img/cars_banner2.png" alt="Cars 2">
+            <div class="cars row center-block">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/car_banner4.png" alt="Car 4">
+                </div>
+                
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/car_banner5.png" alt="Car 5">
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-responsive" src="img/car_banner6.png" alt="Car 6">
+                </div>
             </div>
         </div>
 
@@ -130,16 +149,16 @@
     </div>
 
     <footer>
-        <div class="newsletter text-center">
+        <div class="newsletter">
             <hr>
-            <h1>Receba as novidades</h1>
+            <h1 class="text-center">Receba as novidades</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 banner">
-                        <p>Banner</p>
+                    <div class="col-md-5 col-md-offset-1 col-sm-4 banner">
+                        <p class="text-center">Banner</p>
                     </div>
 
-                    <div class="col-md-6 contato text-left">
+                    <div class="col-md-5 col-md-offset-1 col-sm-4 col-sm-offset-1 contato">
                         <p class="contato-title">
                             Receba novidades e ofertas com descontos exclusivos <br> diretamente no seu e-mail!
                         </p>
@@ -194,7 +213,9 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-md-2"><h3>Pagamento</h3></div>
+                            <div class="col-md-2">
+                                <h3>Pagamento</h3>
+                            </div>
                             <div class="col-md-10 form-pag">
                                 <img class="img-responsive" src="img/form-pag-1.png" alt="Pag 1">
                                 <img class="img-responsive" src="img/form-pag-2.png" alt="Pag 2">
@@ -203,7 +224,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-md-3"><h3>compra 100% segura</h3></div>
+                            <div class="col-md-3">
+                                <h3>compra 100% segura</h3>
+                            </div>
                             <div class="col-md-2 form-pag">
                                 <img class="img-responsive" src="img/cert-1.png" alt="Cert 1">
                             </div>
@@ -223,14 +246,13 @@
         <div class="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        © 2013 - 2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ 12.323.211/0001-44 <br>
-                        Avenida Henry Ford, 1.716, Parque da Mooca, São Paulo - SP CEP: 03109-000
+                    <div class="col-md-6 col-xs-6">
+                        © 2013 - 2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ 12.323.211/0001-44 <br>                        Avenida Henry Ford, 1.716, Parque da Mooca, São Paulo - SP CEP: 03109-000
                     </div>
-                    <div class="col-md-1 col-md-offset-4">
+                    <div class="col-md-1 col-md-offset-4 col-xs-3">
                         <img class="img-responsive" src="img/powered_by_vtex.png" alt="VTex">
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-xs-3">
                         <img class="img-responsive" src="img/quatro_design.png" alt="Quatro Digital">
                     </div>
 

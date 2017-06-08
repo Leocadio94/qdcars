@@ -259,7 +259,7 @@ input {
     padding-bottom: 5px;
 }
 
-.btn-ok {
+.btn-ok, .btn-ok:hover, .btn-ok:focus  {
     width: 145px;
     background-color: #323232;
     color: #FFFFFF;
@@ -335,7 +335,6 @@ input {
 .footer-bar {
     padding-bottom: 20px;
 }
-
 .compra-segura {
     background-color: #E3E3E3;
     padding-top: 10px;
@@ -347,7 +346,6 @@ input {
 }
 
 .form-pag {
-    display: inline-block;
     padding-top: 20px;
 }
 

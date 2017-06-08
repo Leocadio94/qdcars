@@ -19,30 +19,42 @@
             </div>
         </div>
         <div class="container down-bar">
-            <div class="row">
-                <div class="col-md-1"><a href="#">LOREM<i class="fa fa-angle-down down-icon"></i></a></div>
-                <div class="col-md-1"><a href="#">IPSUM<i class="fa fa-angle-down down-icon"></i></a></div>
-                <div class="col-md-1"><a href="#">DOLLOR<i class="fa fa-angle-down down-icon"></i></a></div>
-                <div class="col-md-1"><a href="#">AMET<i class="fa fa-angle-down down-icon"></i></a></div>
-                <div class="col-md-3">
-                    <a href="#">
-                        <div class="logo text-center">
-                            QD<span>Car</span>s
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed align-right text-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-text" href="#">
+                    <div class="logo">
+                        QD<span>Car</span>s
+                    </div>
+                </a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">LOREM <i class="fa fa-angle-down down-icon"></i></a></li>
+                    <li><a href="#">IPSUM <i class="fa fa-angle-down down-icon"></i></a></li>
+                    <li><a href="#">DOLLOR <i class="fa fa-angle-down down-icon"></i></a></li>
+                    <li><a href="#">SIT <i class="fa fa-angle-down down-icon"></i></a></li>
+                    <li><a href="#">AMET <i class="fa fa-angle-down down-icon"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="search">
+                            <span>Estou procurando por...</span>
+                            <a href="#"><i class="fa fa-search"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <div class="search">
-                        <span>Estou procurando por...</span>
-                        <a href="#"><i class="fa fa-search"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="row">
-                        <div class="col-md-2 cart-icon"><i class="fa fa-shopping-cart"></i> </div>
-                        <div class="col-md-10 cart-desc">(99)<br>R$ 9.999,00</div>
-                    </div>
-                </div>
+                    </li>
+                    <li>
+                        <div class="cart row">
+                            <div class="col-md-3 cart-icon"><i class="fa fa-shopping-cart"></i> </div>
+                            <div class="col-md-9 cart-desc">(99)<br>R$ 9.999,00</div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -58,7 +70,7 @@
                 <div class="col-md-6">
                     <img class="img-responsive" src="img/car_banner2.png" alt="Car 2">
                 </div>
-                
+
                 <div class="col-md-6">
                     <img class="img-responsive" src="img/car_banner3.png" alt="Car 3">
                 </div>
@@ -67,7 +79,7 @@
                 <div class="col-md-4">
                     <img class="img-responsive" src="img/car_banner4.png" alt="Car 4">
                 </div>
-                
+
                 <div class="col-md-4">
                     <img class="img-responsive" src="img/car_banner5.png" alt="Car 5">
                 </div>
@@ -84,7 +96,7 @@
             <h1>Mais Desejados</h1>
 
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="product col-md-3 col-sm-6">
                     <div class="floating-text black-box"><i class="fa fa-star"></i> Novo</div>
                     <div class="floating-text blue-box"><i class="fa fa-truck"></i> Frete Grátis</div>
                     <div class="floating-text pink-box"><i class="fa fa-certificate"></i> Oferta</div>
@@ -99,7 +111,7 @@
                         <span class="comprar">Comprar</span>
                     </button>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="product col-md-3 col-sm-6">
                     <div class="floating-text black-box"><i class="fa fa-star"></i> Novo</div>
                     <div class="floating-text blue-box"><i class="fa fa-truck"></i> Frete Grátis</div>
                     <div class="floating-text pink-box"><i class="fa fa-certificate"></i> Oferta</div>
@@ -114,7 +126,7 @@
                         <span class="comprar">Comprar</span>
                     </button>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="product col-md-3 col-sm-6">
                     <div class="floating-text black-box"><i class="fa fa-star"></i> Novo</div>
                     <div class="floating-text blue-box"><i class="fa fa-truck"></i> Frete Grátis</div>
                     <div class="floating-text pink-box"><i class="fa fa-certificate"></i> Oferta</div>
@@ -129,7 +141,7 @@
                         <span class="comprar">Comprar</span>
                     </button>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="product col-md-3 col-sm-6">
                     <div class="floating-text black-box"><i class="fa fa-star"></i> Novo</div>
                     <div class="floating-text blue-box"><i class="fa fa-truck"></i> Frete Grátis</div>
                     <div class="floating-text pink-box"><i class="fa fa-certificate"></i> Oferta</div>
@@ -181,14 +193,14 @@
         <div class="footer-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="ajuda col-md-4">
                         <h3>Precisa de Ajuda?</h3>
                         <p class="footer-menu">Quem Somos </p>
                         <p class="footer-menu">Como comprar</p>
                         <p class="footer-menu">Trocas e devoluções</p>
                         <p class="footer-menu">Política de entrega</p>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="atendimento col-md-4 text-center">
                         <div class="logo">
                             QD<span>Car</span>s
                         </div>
@@ -211,7 +223,7 @@
         <div class="compra-segura">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="pagamento col-md-6 col-sm-5">
                         <div class="row">
                             <div class="col-md-2">
                                 <h3>Pagamento</h3>
@@ -222,22 +234,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="seguro col-md-6 col-sm-7">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <h3>compra 100% segura</h3>
                             </div>
-                            <div class="col-md-2 form-pag">
+                            <div class="col-md-2 col-sm-2 form-pag">
                                 <img class="img-responsive" src="img/cert-1.png" alt="Cert 1">
                             </div>
-                            <div class="col-md-2 form-pag">
+                            <div class="col-md-3 form-pag">
                                 <img class="img-responsive" src="img/cert-2.png" alt="Cert 2">
                                 <img class="img-responsive" src="img/cert-3.png" alt="Cert 3">
                             </div>
                             <div class="col-md-2 form-pag">
                                 <img class="img-responsive" src="img/cert-4.png" alt="Cert 4">
                             </div>
-                            <div class="col-md-offset-3"></div>
+                            <div class="col-md-offset-2"></div>
                         </div>
                     </div>
                 </div>

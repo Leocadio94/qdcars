@@ -13,13 +13,13 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    padding-left: 35px;
-    padding-right: 35px;
     background-color: #323232;
     margin-bottom: 0;
 }
 .top-bar, .down-bar {
     padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .top-bar, .top-bar a {
@@ -41,8 +41,9 @@ a, a:hover, a:focus {
 
 .down-icon {
     font-size: 10px;
+    font-weight: normal;
     color: #8c8c8c;
-    padding-left: 3px;
+    padding-left: 1px;
 }
 
 .logo {
